@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-image: url('bg.jpg');
+  background-size: cover;         
+  background-position: center;    
+  background-repeat: no-repeat;  
+  overflow: hidden; 
+  background-attachment: fixed;
+
+}
+
+h1{
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 500%;
+  position: absolute;
+  left: 600px;
+  top: 42px;
+    
+}
+
+.task{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+  border: rgb(27, 27, 27) rgb(0, 0, 0) 2px;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  left: 500px;
+  top: 100px;
+  font-size: x-large;
+  padding: 20px;
+  box-sizing: border-box;
+  
+  box-shadow:
+  0 0 0 2px rgba(0, 0, 0, 0.6),   
+  0 4px 10px rgba(0, 0, 0, 0.2);  
+
+
+
+}
+
+li{
+    list-style: none;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    padding: 2px;
+    
+}
+
+button{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  
+  font-style: normal;
+  height: 40px;
+  width: 70px;
+}
+
+input[type="checkbox"] {
+    appearance: none;         
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    position: relative;
+  }
+  input[type="checkbox"]:checked::before {
+    content: '✔';
+    position: absolute;
+    left: 3px;
+    top: -1px;
+    font-size: 16px;
+    color: green;
+  }
+.add{
+    position: absolute;
+    bottom: 100px;
+    left: 970px;
+    width: 30px;
+    border: snow rgb(236, 234, 234) 2px;
+    border-radius: 100%;
+}
+button{
+    background: none;
+    border: solid black 1px;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.srch{
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 900;
+  font-size: large;
+  font-style: normal;
+  position: absolute;
+  padding: 10px;
+  bottom: 100px;
+  left: 500px;
+  width: 450px;
+  height: 30px;
+  border: snow rgb(236, 234, 234) 2px;
+  box-sizing: border-box;
+  box-shadow:
+  0 0 0 2px rgba(255, 255, 255, 0.6),   
+  0 4px 10px rgba(0, 0, 0, 0.2); 
+}
